@@ -43,5 +43,11 @@ namespace Calculator.Unit.Test
         {
             Assert.That(_uut.Power(2,3), Is.EqualTo(8));
         }
+
+        [Test]
+        public void Power_2power4_equals16()
+        {
+            Assert.That(_uut.Power(2, 4), Is.EqualTo(16));
+        }
     }
 }
